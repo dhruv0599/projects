@@ -1,0 +1,35 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: "Helvetica Now Display"; 
+} 
+html,body{ 
+    height: 100%; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+     
+} 
+.bulb{ 
+    height: 300px; 
+    width:300px; 
+    background-color: rgb(0, 0, 0); 
+    border-radius: 50%; 
+} 
+.switch{ 
+    background: #5dbd62; 
+    padding: 15px 30px; 
+    font-size: 18px; 
+    color: #fff; 
+    border: none; 
+    border-radius: 30px; 
+    cursor: pointer; 
+    font-weight: 600; 
+} 
+.switch:active{ 
+    scale: 0.8; 
+    background-color: rgb(8, 90, 8); 
+}
