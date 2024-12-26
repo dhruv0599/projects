@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.image {
+    position: absolute;
+    left: 62%;
+    height: 100%;
+    width: 30%;
+    background-image: url(https://fuckingyoung.es/wp-content/uploads/2014/09/Bei-Kuo-SS15-Lookbook_fy12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: -6%;
+    transform: translate(0%, -50%);
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0px 8px 10px red;
+}
+
+.circle i {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+}
+
+.panel {
+    position: absolute;
+    right: -0%;
+    height: 100%;
+    width: 8%;
+    background-color: red;
+}
+
+#top {
+    height: 50%;
+    width: 100%;
+    background-color: black;
+}
+
+#top i {
+    position: absolute;
+    top: 15%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.575);
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+}
+
+
+
+#btm {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    right: 0%;
+    bottom: 0%;
+    background-color: red;
+}
+
+#btm p {
+    position: absolute;
+    top: 30%;
+    left: -10%;
+    transform: translate(-50%, -50%);
+    color: #ffffff88;
+    /* background-color: blue; */
+    height: 20px;
+    width: 150px;
+    transform: translate(-50%, -50%);
+    rotate: 270deg;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200%;
+    letter-spacing: 10px;
+}
+
+.nike .text1 {
+    position: absolute;
+    top: 75%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 60px;
+}
+
+.nike .text2 {
+    position: absolute;
+    top: 90%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    font-size: 70px;
+    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 50px;
+}
+
+.nike .text3 {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%);
+    /* font-size: 20px; */
+    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 20px;
+}
+
+.logo img{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    /* background-color: blue;img */
+    color: black;
+
+}
+
+.gender {
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    height: 20px;
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    /* background-color: blue; */
+    letter-spacing: 15px;
+}
