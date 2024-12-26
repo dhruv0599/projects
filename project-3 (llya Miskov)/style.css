@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+    padding: 20px 40px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav #part1 h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav #part2 {
+    display: flex;
+    gap: 15px;
+
+}
+.nav #part2 h4 {
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    margin-top: 15px;
+}
+.nav #part2 #line {
+    width: 20px;
+    height: 2px;
+    display: flex;
+    margin-top: 25px;
+    background-color: black;
+}
+
+.nav #part3 {
+    display: flex;
+    gap: 30px;
+}
+.nav #part3 a {
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+.nav #part3 #yellow {
+    position: absolute;
+    top: -2px;
+    left: 40px;
+    width: 15px;
+    height: 7px;
+    background-color: rgba(255, 187, 0, 0.87);
+    border-radius: 100px;
+
+}
+
+.content h5 {
+    padding: 0px 40px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-weight: 400;
+    /* background-color: aqua; */
+}
+.content h3 {
+    padding: 0px 40px;
+    margin-top: 20px;
+    font-size: 130px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    line-height: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: aqua;  */
+}
+
+.middle_nav {
+    width: 100%;
+    padding: 20px 40px;
+    /* background-color: rgb(127, 146, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.middle_nav .text {
+    font-size: 20px;
+    font-weight: 400;
+}
+.middle_nav .line {
+    width: 20px;
+    height: 5px;
+    color: #000;
+    display: flex;
+
+}
+.middle_nav .num {
+    font-size: 20px;
+    font-weight: 400;
+}
+.btm {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 0px 30px;
+    gap: 10px;
+    /* background-color: rgb(153, 124, 124); */
+    position: relative;
+}
+
+.btm #box1 {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://pagedone.io/asset/uploads/1707480017.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+}
+
+.btm #box2 {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://pagedone.io/asset/uploads/1707480044.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.btm_nav {
+    width: 100%;
+    padding: 40px 30px;
+    /* background-color: rgb(127, 146, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.btm_nav #lefttext {
+    width: 50%;
+    height: 50px;
+    /* background-color: aqua; */
+    margin-top: -30px;
+}
+.btm_nav #lefttext h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.btm_nav #lefttext h5 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 2px;
+    color: #0000009b;
+}
+.btm_nav #left_button {
+    width: 80px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 40px;
+    position: relative;
+}
+button:hover{
+    color: #fff;
+    background-color: #000;
+}
+.btm_nav #left_button i {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btm_nav #righttext {
+    width: 50%;
+    height: 50px;
+    /* background-color: rgb(255, 200, 0); */
+    margin-top: -30px;
+}
+.btm_nav #righttext h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.btm_nav #righttext h5 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 2px;
+    color: #0000009b;
+}
+.btm_nav #right_button {
+    width: 80px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 40px;
+    position: relative;
+}
+.btm_nav #right_button i {
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
