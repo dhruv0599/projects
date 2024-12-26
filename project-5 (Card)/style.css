@@ -1,0 +1,160 @@
+@font-face {
+    font-family: dhruv;
+    src: url(./ClearSansDisplayRegular.woff2);
+}
+
+* {
+    font-family: dhruv;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.part1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cryptonoshi.com/wp-content/uploads/BleapCard_PreviewImage_sm.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.part3 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+    /* background-color: aqua; */
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.part3 .img1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://d1ip4j1950xau.cloudfront.net/_processed_/4/1/csm_Rousselot%20-%20Vitafoods%20press%20release_848d3b7bf1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.part3 .img2 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.ctfassets.net/qw8ps43tg2ux/4E6pgTEIXSaFty6wdQEmCj/d111a94faa0d1374ecd60ab396b25063/ISSA_HowLongShouldYourWorkoutLast_Blog940x492.jpg?fm=webp&w=1440&q=75);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.part3 .img3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTnZURUumaT1N95PaXzgQdl8JOctqHfpSfRKZbch62b-Sn_3UWK);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.part5 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    background-size: cover;
+    /* background-color: aqua; */
+    gap: 20px;
+    margin-top: 50px;
+}
+.part5 .box1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 172, 255, 0.432);
+}
+.part5 .box2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(127, 255, 138, 0.486);
+}
+.part5 .box3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 172, 255, 0.432);
+}
+.part5 .box4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(127, 255, 138, 0.486);
+}
+.part5 .img1 {
+    width: 280px;
+    height: 150px;
+    background-position: top;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-image: url(https://img.freepik.com/premium-psd/colorful-candy-falling-transparent-background_838900-82562.jpg);
+    margin-top: 40px;
+}
+.part5 .img2 {
+    width: 280px;
+    height: 150px;
+    background-position: top;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-image: url(https://m.media-amazon.com/images/I/719ZkDF4FbL._AC_CR0,0,0,0_SX352_SY330_.jpg);
+    margin-top: 40px;
+}
+.part5 .img3 {
+    width: 280px;
+    height: 150px;
+    background-position: top;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-image: url(https://blogassets.airtel.in/wp-content/uploads/2024/09/phone-screen-with-abstract-marble-aesthetic-1.jpg);
+    margin-top: 40px;
+}
+.part5 .img4 {
+    width: 250px;
+    height: 150px;
+    background-position: top;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-image: url(https://icon2.cleanpng.com/20240411/iah/transparent-skincare-cosmetics-shampoo-face-cream-lotion-cosmetic-products-on-pink-tray-with-reflections6617d5d70497b7.71444501.webp);
+    margin-top: 66px;
+}
+
+.part6 .img {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 7px;
+    background-position: top;
+    background-size: cover;
+    background-image: url(./apple.png);
+}
+
+.part7 .img {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    margin-left: 5px;
+    margin-top: 7px;
+    background-position: top;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS5mLjDoZdtQBtUKL3oQH7yzgXzbnou8_RHw4pTMiABkpbhdD5s);
+}
